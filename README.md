@@ -14,7 +14,7 @@ Este proyecto es una página web sencilla que simula la portada de una revista d
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     ...
 </head>
@@ -24,7 +24,7 @@ Este proyecto es una página web sencilla que simula la portada de una revista d
 </html>
 ```
 - `<!DOCTYPE html>`: Indica que el documento es HTML5.
-- `<html lang="en">`: Raíz del documento, con idioma inglés.
+- `<html lang="es">`: Raíz del documento, con idioma Español.
 - `<head>`: Contiene metadatos, título y enlace a la hoja de estilos.
 - `<body>`: Contiene todo el contenido visible de la página.
 
