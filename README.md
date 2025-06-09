@@ -55,11 +55,25 @@ Información de derechos reservados y nombre de la revista.
 
 ## Explicación de `style.css`
 
-Define los estilos visuales de la página:
-- Colores de fondo para cada sección.
-- Distribución en cuadrícula para los artículos.
-- Estilos para la navegación, imágenes, tipografía y espaciados.
-- Uso de `flex` y `grid` para el diseño responsivo.
+El archivo `style.css` define la apariencia visual de la página web. A continuación se detallan las principales reglas y su función:
+
+- **nav**: Establece el color de fondo de la barra de navegación, el espaciado interno (`padding`), y usa `flex` para alinear el título y el menú a los extremos.
+- **ul**: Elimina los puntos de la lista y usa `flex` para mostrar los elementos del menú en línea, con separación entre ellos (`gap`).
+- **div**: Aplica un margen horizontal para separar el contenido del borde.
+- **img**: Define un ancho fijo para la imagen principal y usa `object-fit: cover` para que la imagen no se deforme y ocupe bien el espacio.
+- **main**: Usa `flex` para colocar la imagen y el texto uno al lado del otro, y aplica un color de fondo y margen vertical.
+- **article**: Da color de fondo a cada artículo, agrega espaciado interno y limita el ancho máximo para que los artículos sean compactos.
+- **section**: Utiliza `grid` para organizar los artículos en tres columnas, con separación entre ellos (`gap`) y espaciado lateral (`padding`).
+- **footer**: Usa `flex` para alinear el nombre de la revista y el texto de derechos reservados en los extremos, con color de fondo y espaciado.
+- **h1**: Cambia la fuente del título principal a 'Times New Roman' para dar un aspecto más clásico.
+- **body**: Define la fuente general de la página, elimina márgenes y rellenos por defecto, aplica el modelo de caja (`box-sizing: border-box`), limita el ancho máximo de la página y centra el contenido, además de establecer un color de fondo suave.
+
+### Otras consideraciones
+- Se utilizan colores suaves y agradables para dar un aspecto moderno y limpio.
+- El uso de `flex` y `grid` permite que la página sea adaptable y responsiva, facilitando la visualización en diferentes tamaños de pantalla.
+- Los márgenes y rellenos están pensados para que el contenido no quede pegado a los bordes y sea más legible.
+
+Puedes modificar cualquier regla de este archivo para personalizar la apariencia de la revista según tus preferencias.
 
 ## Personalización
 
